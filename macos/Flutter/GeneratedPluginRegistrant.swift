@@ -5,8 +5,8 @@
 import FlutterMacOS
 import Foundation
 
-import blue_thermal_printer
+import flutter_bluetooth_classic_serial
 
 func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
-  BlueThermalPrinterPlugin.register(with: registry.registrar(forPlugin: "BlueThermalPrinterPlugin"))
+  SwiftFlutterBluetoothClassicPlugin.register(with: registry.registrar(forPlugin: "SwiftFlutterBluetoothClassicPlugin"))
 }
